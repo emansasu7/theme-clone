@@ -1,0 +1,135 @@
+.btn-primary, .btn-secondary {
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #4f78e0;
+  color: #f8f9fc;
+}
+
+.btn-secondary {
+  margin-left: 10px;
+  background-color: #e1e3e4;
+  color: #333;
+}
+
+.navbar {
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 10vh;
+}
+
+.navbar-logo {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.navbar-logo-image {
+  width: 40%;
+}
+
+.navbar-links {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar-items {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #1a2d3d;
+}
+
+.navbar-items:hover {
+  color: #d66b5d;
+}
+
+.navbar-burger-menu {
+  display: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f8f9fc;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+}
+
+img {
+  width: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 80%;
+  height: 80vh;
+  margin: 10px auto;
+}
+
+.content .intro-text,
+.content .intro-image {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.intro-text h1 {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  color: #1a2d3d;
+  padding-right: 10px;
+}
+
+.intro-text p {
+  color: #757f84;
+  font-size: 16px;
+  margin-bottom: 30px;
+  padding-right: 50px;
+}
+/*# sourceMappingURL=styles.css.map */

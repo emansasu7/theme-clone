@@ -1,0 +1,16 @@
+$light: #f8f9fc;
+$dark: #1a2d3d;
+$primary-color: #4f78e0;
+// $text-color: black;
+$text-color: #757f84;
+$secondary-color: #d66b5d;
+$font-stack: Arial, Helvetica, sans-serif;
+
+// set the background color based on the bg
+@function set-text-color($color) {
+  @if lightness($color) >70 {
+    @return #333;
+  } @else {
+    @return $light;
+  }
+}

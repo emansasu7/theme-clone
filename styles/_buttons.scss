@@ -1,0 +1,20 @@
+%btn {
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.btn-primary {
+  @extend %btn;
+  background-color: $primary-color;
+  color: set-text-color($primary-color);
+}
+.btn-secondary {
+  @extend %btn;
+  margin-left: 10px;
+  background-color: lighten($text-color, 40%);
+  color: set-text-color(lighten($text-color, 40%));
+}
